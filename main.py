@@ -33,14 +33,14 @@ async def buscar(file: UploadFile = File(...)):
     # 3. Mágia de la Demo (Simulación exitosa)
     # Devolvemos las URLs completas de tus 8 fotos alojadas en Vercel
     fotos_encontradas = [
-        f"{URL_VERCEL_FOTOS}/victor1.jpg",
-        f"{URL_VERCEL_FOTOS}/victor2.jpg",
-        f"{URL_VERCEL_FOTOS}/victor3.jpg",
-        f"{URL_VERCEL_FOTOS}/victor4.jpg",
-        f"{URL_VERCEL_FOTOS}/victor5.jpg",
-        f"{URL_VERCEL_FOTOS}/victor6.jpg",
-        f"{URL_VERCEL_FOTOS}/victor7.jpg",
-        f"{URL_VERCEL_FOTOS}/victor8.jpg"
+        f"{URL_VERCEL_FOTOS}/victor1.jpeg",
+        f"{URL_VERCEL_FOTOS}/victor2.jpeg",
+        f"{URL_VERCEL_FOTOS}/victor3.jpeg",
+        f"{URL_VERCEL_FOTOS}/victor4.jpeg",
+        f"{URL_VERCEL_FOTOS}/victor5.jpeg",
+        f"{URL_VERCEL_FOTOS}/victor6.jpeg",
+        f"{URL_VERCEL_FOTOS}/victor7.jpeg",
+        f"{URL_VERCEL_FOTOS}/victor8.jpeg"
     ]
     
     return {
