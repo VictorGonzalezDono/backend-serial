@@ -14,7 +14,7 @@ app.add_middleware(
 )
 
 # Cambia esto por la URL real de tu página en Vercel
-URL_VERCEL_FOTOS = "https://serial-atletico-ensenada-victormktplus.vercel.app"
+URL_VERCEL_FOTOS = "https://serial-atletico-ensenada-git-main-victormktplus-1434s-projects.vercel.app/"
 
 @app.get("/")
 def home():
